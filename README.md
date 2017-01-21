@@ -1,2 +1,2 @@
 # learn-hapi
-my personal takes in learning hapijs
+My personal takes in learning [Hapi.js](https://hapijs.com/), nothing fancy!

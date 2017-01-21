@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "hello": "nodemon ./hello/index.js"
+    "start": "npm run resp",
+    "hello": "nodemon ./hello/index.js",
+    "resp": "nodemon ./response/index.js"
   },
   "name": "learn-hapi",
   "version": "1.0.0",
