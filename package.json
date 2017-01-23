@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "start": "npm run resp",
+    "start": "npm run view",
     "hello": "nodemon ./hello/index.js",
-    "resp": "nodemon ./response/index.js"
+    "resp": "nodemon ./response/index.js",
+    "view": "nodemon ./views/index.js"
   },
   "name": "learn-hapi",
   "version": "1.0.0",
@@ -11,8 +12,10 @@
   "author": "Salvatore Laisa <moebiusmania@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "handlebars": "^4.0.6",
     "hapi": "^16.1.0",
-    "inert": "^4.1.0"
+    "inert": "^4.1.0",
+    "vision": "^4.1.1"
   },
   "devDependencies": {
     "good": "^7.1.0",
